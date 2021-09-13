@@ -1,10 +1,11 @@
 
 body {
 	margin:50px 0px; 
-  padding:0px;
+  	padding:0px;
 	text-align:center;
-  font-family: 'Bree Serif', serif; 
-	}
+  	font-family: 'Bree Serif', serif; 
+	background-color: skyblue; 
+}
 	
 .warning {
 	color: red;
