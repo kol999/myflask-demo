@@ -14,7 +14,7 @@ enable_cool_new_feature = os.environ.get('ENABLE_COOL_NEW_FEATURE') in ['true', 
 
 @application.route('/')
 def hello_world():
-    message = "Hello from the Flask App!"
+    message = "Deployed from GitHub!!!"
     return flask.render_template('index.html',
                                   title=message,
                                   flask_debug=application.debug,
